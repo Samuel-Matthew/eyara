@@ -2,40 +2,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "@/components/feature/Navbar";
 import Footer from "@/components/feature/Footer";
 
-const teamMembers = [
-  {
-    id: "1",
-    name: "Alex Moreno",
-    role: "Founder & CEO",
-    bio: "Former Solana core developer with 8 years in blockchain security. Built Eyara after losing funds to a rug pull in 2024.",
-    imageUrl:
-      "https://readdy.ai/api/search-image?query=Professional%20headshot%20portrait%20of%20a%20tech%20founder%20with%20warm%20lighting%20against%20a%20dark%20subtle%20gradient%20background%20with%20hints%20of%20deep%20navy%20and%20gold%20accents%20clean%20modern%20corporate%20style%20high%20quality%20editorial%20photography%20confident%20expression&width=200&height=200&seq=about-team-01&orientation=squarish",
-  },
-  {
-    id: "2",
-    name: "Sarah Chen",
-    role: "CTO",
-    bio: "Smart contract auditor who has reviewed over 500 Solana programs. Previously led security at a top DeFi protocol.",
-    imageUrl:
-      "https://readdy.ai/api/search-image?query=Professional%20headshot%20portrait%20of%20a%20female%20tech%20leader%20with%20warm%20lighting%20against%20a%20dark%20subtle%20gradient%20background%20with%20hints%20of%20deep%20navy%20and%20gold%20accents%20clean%20modern%20corporate%20style%20high%20quality%20editorial%20photography&width=200&height=200&seq=about-team-02&orientation=squarish",
-  },
-  {
-    id: "3",
-    name: "Marcus Okonkwo",
-    role: "Head of Research",
-    bio: "On-chain analyst specializing in scam pattern detection. Built machine learning models that power the Eyara detection engine.",
-    imageUrl:
-      "https://readdy.ai/api/search-image?query=Professional%20headshot%20portrait%20of%20a%20tech%20researcher%20with%20warm%20lighting%20against%20a%20dark%20subtle%20gradient%20background%20with%20hints%20of%20deep%20navy%20and%20gold%20accents%20clean%20modern%20corporate%20style%20high%20quality%20editorial%20photography&width=200&height=200&seq=about-team-03&orientation=squarish",
-  },
-  {
-    id: "4",
-    name: "Priya Sharma",
-    role: "Community Lead",
-    bio: "Web3 community builder with experience growing crypto communities from zero to 50k+ members across multiple blockchain ecosystems.",
-    imageUrl:
-      "https://readdy.ai/api/search-image?query=Professional%20headshot%20portrait%20of%20a%20female%20community%20manager%20with%20warm%20lighting%20against%20a%20dark%20subtle%20gradient%20background%20with%20hints%20of%20deep%20navy%20and%20gold%20accents%20clean%20modern%20corporate%20style%20high%20quality%20editorial%20photography&width=200&height=200&seq=about-team-04&orientation=squarish",
-  },
-];
+
 
 const stats = [
   {
